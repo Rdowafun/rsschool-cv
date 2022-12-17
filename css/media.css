@@ -1,0 +1,47 @@
+@media (max-width:780px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        top: 0;
+        right: -100%;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #05001ad9;
+        z-index: 300;
+        gap: 30px;
+        padding: 35px;
+        transition: 500ms;
+    }
+
+    .header-list.active {
+        right: 0;
+    }
+
+    .aboutme-content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:720px) {
+    .project-link {
+        height: 240px;
+    }
+
+    .project-link img {
+        height: 240px;
+    }
+
+}
+
+@media (max-width:580px) {
+    .footer__list {
+        gap: 15px;
+        flex-direction: column;
+    }
+}
